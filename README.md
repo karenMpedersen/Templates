@@ -95,3 +95,5 @@ if __name__ == "__main__":
 ### Create a requirements.txt file listing the modules used in this script
 # pip freeze > requirements.txt
 ```
+## Personal Note
+I was asked to create starter code templates that would help students develop good habits when writing code. The motivation behind this is that when someone new looks at the code, it is easy to read and understand. I was excited to do this, but I also realized that having a complete project structure in mind at the beginning of a project would be helpful for me as well.
