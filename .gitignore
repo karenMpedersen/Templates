@@ -1,0 +1,61 @@
+# This is a .gitignore file tailored for R projects, with optional sections for Python scripts
+# and common project outputs. Adjust as necessary for your specific project needs.
+
+# -------------------------
+# OS / EDITOR JUNK
+# -------------------------
+.DS_Store
+Thumbs.db
+~$*
+*.swp
+*.swo
+.Rproj.user/
+
+# -------------------------
+# R SPECIFIC
+# -------------------------
+.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+
+# If you use renv, keep renv.lock but ignore libraries
+renv/library/
+renv/staging/
+
+# -------------------------
+# PYTHON SPECIFIC (if you add Python scripts)
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+
+# Jupyter stuff (if you ever use notebooks)
+.ipynb_checkpoints/
+
+# -------------------------
+# PROJECT OUTPUTS (DERIVED FILES)
+# -------------------------
+# Ignore everything in outputs/ because it can be regenerated
+outputs/
+
+# -------------------------
+# LARGE / SCRATCH DATA (OPTIONAL)
+# -------------------------
+# If you have large or private data, put it in these folders
+# and keep them out of the repo:
+data_large/
+scratch/
+
+# -------------------------
+# RSTUDIO PROJECT FILES (OPTIONAL)
+# -------------------------
+# If you don't want to track the .Rproj file, uncomment:
+# *.Rproj

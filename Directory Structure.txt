@@ -1,0 +1,29 @@
+It is a good idea to think about how you will structure you files below is a possible structure.
+You can create something similar for yourself.This example uses .R scripts
+
+Suggested Project Directory Structure:
+
+project-name/
+├── data_input/               # all raw or input data files
+│   ├── data.csv
+│   ├── other_data.csv
+│   └── even_more_data.csv
+
+├── R/                        # all analysis scripts
+│   ├── 01_import_clean.R
+│   ├── 02_analysis.R
+│   ├── 03_even_more_analysis.R
+│   └── 04_figures.R
+
+├── outputs/
+│   ├── figures/              # all saved PNG/PDF plots
+│   │   ├── example_plot.png
+│   │   ├── example_hist.pdf
+│   │   └── example_boxplot.png
+│   └── tables/               # optional: summary CSVs, stats tables
+│       ├── some_output.csv
+│       └── some_other.csv
+
+└── report/                   # final write-up summarizing outputs
+    ├── report.docx            # or summary of results
+    └── references.bib        # optional for citations
