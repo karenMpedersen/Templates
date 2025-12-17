@@ -3,6 +3,9 @@
 # and keep all related files there. This script assumes the working directory
 # is the project root (project-name/).
 
+# It is important to note sections of the script and functions written entirely by AI tools 
+# A comment above such sections "# AI generated"  is good enough.
+
 # -------- BASIC INFORMATION ---------
 
 # Code Objective: Briefly describe what this script does.
