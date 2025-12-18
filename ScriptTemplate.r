@@ -42,7 +42,9 @@ plot(df$some_column, df$other_column)
 
 
 # ---------- REPRODUCIBILITY ----------
-# Basic info about your R session and packages.
+# Basic info about your R session and packages. 
+# Use the output for the last time you run your script in the methods or as an appendix
+
 
 # Table with R version info 
 ver <- R.Version()
